@@ -1,0 +1,58 @@
+snippet `< "" Ab
+	<?php
+
+	declare(strict_types=1);
+
+snippet `__con "" Ab
+	public function __construct()
+	{
+		${0:$VISUAL}
+	}
+
+snippet `__cop "" Ab
+	public function __construct(
+		${0:$VISUAL}
+	) {
+	}
+
+snippet `fup "" Ab
+	public function ${1:name}(): ${2:void}
+	{
+		${0:$VISUAL}
+	}
+
+snippet `fus "" Ab
+	public static function ${1:name}(): ${2:void}
+	{
+		${0:$VISUAL}
+	}
+
+snippet `fn( "" Ab
+	fn (): void => ${0:$VISUAL}
+
+snippet foras=> "" Ab
+	foreach ($${1:var} as $${2:var} => $${3:var}) {
+		${0:$VISUAL}
+	}
+
+snippet foras "" Ab
+	foreach ($${1:var} as $${2:var}) {
+		${0:$VISUAL}
+	}
+
+snippet foras[] "" Ab
+	foreach ($${1:var} as []) {
+		${0:$VISUAL}
+	}
+
+# vimscript in backticks takes current file basename
+snippet `class "" Ab
+	class ${1:`expand('%:t:r')`}
+	{
+		${0:$VISUAL}
+	}
+
+snippet `ns "" Ab
+	namespace ${1:`substitute(substitute(substitute(expand("%:~:.:r"),'/','\\','g'), '\<.', '\u&', 'g'), '\\\w\{-}\w$', '', '')`};
+
+	${0:$VISUAL}

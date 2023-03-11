@@ -1,0 +1,214 @@
+{
+  "nodes": {
+    "colorizer": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1591879145,
+        "narHash": "sha256-6YrnItxExL2C8pNIdLd+hXCjsB2MbZANwWkah6dreD8=",
+        "ref": "refs/heads/master",
+        "rev": "36c610a9717cc9ec426a07c8e6bf3b3abcb139d6",
+        "revCount": 31,
+        "type": "git",
+        "url": "https://github.com/norcalli/nvim-colorizer.lua"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://github.com/norcalli/nvim-colorizer.lua"
+      }
+    },
+    "lspconfig": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1678408019,
+        "narHash": "sha256-2A/4IeUbZ7GdiSU1pMQfvbMGV9cjNFlSgJaHARwnAdw=",
+        "ref": "refs/heads/master",
+        "rev": "4bb0f1845c5cc6465aecedc773fc2d619fcd8faf",
+        "revCount": 2287,
+        "type": "git",
+        "url": "https://github.com/neovim/nvim-lspconfig"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://github.com/neovim/nvim-lspconfig"
+      }
+    },
+    "md-preview": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1678561709,
+        "narHash": "sha256-vQFqodp1K4NL8sQFeqP7nKF1XIpgEXNbsLW9gUWA2xk=",
+        "ref": "refs/heads/master",
+        "rev": "571f14c795e8edd5a21e435f42f37c9bec4a8e16",
+        "revCount": 26,
+        "type": "git",
+        "url": "https://github.com/toppair/peek.nvim"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://github.com/toppair/peek.nvim"
+      }
+    },
+    "melange": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1675988929,
+        "narHash": "sha256-zlOhjUdiezOjNmFO7YHM5JLX17N25mELfZsaEdwdwYE=",
+        "ref": "refs/heads/master",
+        "rev": "2c8250c435279638b5a244acfaf9fcdb702a45cc",
+        "revCount": 207,
+        "type": "git",
+        "url": "https://github.com/savq/melange-nvim"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://github.com/savq/melange-nvim"
+      }
+    },
+    "neodev": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1678514723,
+        "narHash": "sha256-mZUEOEYlFR9whBOh/dKhwqxnoC0HZHZx36Q62IT7Lb0=",
+        "ref": "refs/heads/main",
+        "rev": "418c54441da2506ee9c99150c38e3f350bcad8c4",
+        "revCount": 463,
+        "type": "git",
+        "url": "https://github.com/folke/neodev.nvim"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://github.com/folke/neodev.nvim"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1678470307,
+        "narHash": "sha256-OEeMUr3ueLIXyW/OaFUX5jUdimyQwMg/7e+/Q0gC/QE=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "0c4800d579af4ed98ecc47d464a5e7b0870c4b1f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "null-ls": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1678483189,
+        "narHash": "sha256-bZp6nHhS9ZT7r9x+9A30ROMMPQQvwdT2nvP/0GV2K+s=",
+        "ref": "refs/heads/main",
+        "rev": "e172e1e3011e3d032dbeba6414644ba968570828",
+        "revCount": 1884,
+        "type": "git",
+        "url": "https://github.com/jose-elias-alvarez/null-ls.nvim"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://github.com/jose-elias-alvarez/null-ls.nvim"
+      }
+    },
+    "root": {
+      "inputs": {
+        "colorizer": "colorizer",
+        "lspconfig": "lspconfig",
+        "md-preview": "md-preview",
+        "melange": "melange",
+        "neodev": "neodev",
+        "nixpkgs": "nixpkgs",
+        "null-ls": "null-ls",
+        "telescope-tabs": "telescope-tabs",
+        "ts-context": "ts-context",
+        "ts-playground": "ts-playground",
+        "virt-column": "virt-column",
+        "zen": "zen"
+      }
+    },
+    "telescope-tabs": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1675592081,
+        "narHash": "sha256-Wxrk0E9194g2RvevpHakLFQ6yuE1V7fHXVdDggK4tp4=",
+        "ref": "refs/heads/master",
+        "rev": "df6e9eb2d7338a7ebe45f306582d5456dab8695c",
+        "revCount": 35,
+        "type": "git",
+        "url": "https://github.com/LukasPietzschmann/telescope-tabs"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://github.com/LukasPietzschmann/telescope-tabs"
+      }
+    },
+    "ts-context": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1678533190,
+        "narHash": "sha256-STl76hVjS5txlA5n25aUXH5vDKHhaWfT8Ou4ObzxpuA=",
+        "ref": "refs/heads/master",
+        "rev": "67dcaf9d913d31a9e87d8deceb7eaecf1c33bb22",
+        "revCount": 194,
+        "type": "git",
+        "url": "https://github.com/nvim-treesitter/nvim-treesitter-context"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://github.com/nvim-treesitter/nvim-treesitter-context"
+      }
+    },
+    "ts-playground": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1676666900,
+        "narHash": "sha256-e8wqVyXfZ8qmURbCO/4pOVDSSHZEaRTGZLK5ZEh0AIY=",
+        "ref": "refs/heads/master",
+        "rev": "4044b53c4d4fcd7a78eae20b8627f78ce7dc6f56",
+        "revCount": 124,
+        "type": "git",
+        "url": "https://github.com/nvim-treesitter/playground"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://github.com/nvim-treesitter/playground"
+      }
+    },
+    "virt-column": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1674188823,
+        "narHash": "sha256-6EbEzg2bfoHmVZyggwvsDlW9OOA4UkcfO0qG0TEDKQs=",
+        "ref": "refs/heads/master",
+        "rev": "93b40ea038f676f5a72d7d1f2336fe7b051fc0ce",
+        "revCount": 37,
+        "type": "git",
+        "url": "https://github.com/lukas-reineke/virt-column.nvim"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://github.com/lukas-reineke/virt-column.nvim"
+      }
+    },
+    "zen": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1677490765,
+        "narHash": "sha256-WL6+PtPPOIQ/UCyoIZY7wNXTrBpkBg4jJ8ABRfu7Kbw=",
+        "ref": "refs/heads/main",
+        "rev": "4f2e70d75b7ece1c2a7c852664db492537078996",
+        "revCount": 50,
+        "type": "git",
+        "url": "https://github.com/folke/zen-mode.nvim"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://github.com/folke/zen-mode.nvim"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

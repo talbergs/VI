@@ -1,0 +1,18 @@
+require "user.options"
+
+require "user.keymaps"
+require "user.plugins"
+require "user.autocommands"
+require "user.cmp"
+require "user.telescope"
+require "user.treesitter"
+require "user.spellsitter"
+require "user.gitsigns"
+require "user.lualine"
+require "user.impatient"
+require "user.indentline"
+require "user.lsp"
+require "user.virt-column"
+require "user.neo-tree"
+
+require "user.colorscheme"
